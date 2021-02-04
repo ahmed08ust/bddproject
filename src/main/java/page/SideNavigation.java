@@ -15,10 +15,6 @@ public class SideNavigation {
 	
 	}
 
-//	Bank&Cash    //span[text()='Bank & Cash']
-//	New Account  linkText    New Account
-//	List Account LinkText  List Accounts
-
 	// Element Library
 	@FindBy(how = How.XPATH, using = "//span[text()='Bank & Cash']")
 	WebElement BankCashModule;

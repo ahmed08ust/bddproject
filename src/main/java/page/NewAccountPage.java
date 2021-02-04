@@ -17,11 +17,6 @@ public class NewAccountPage {
 		this.driver = driver;
 	}
 
-//	Account title     ID      account
-//	Description      ID       description
-//	Initial Balance    ID      balance
-//	Submit Button      //label[text()='Initial Balance']/../following-sibling::button
-
 	// Element Library
 	@FindBy(how = How.XPATH, using = "//h5[contains(text(), 'Add New Account')]")
 	WebElement PanelHeaderElement;
